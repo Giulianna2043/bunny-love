@@ -1,0 +1,214 @@
+*
+{
+ outline:1px solid pink;   
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+    background: rgba(202, 237, 240, 0.69);
+}
+
+header
+{
+    padding: 10px 0;
+    background:#256a72;  
+}
+.container i{
+    display: none;
+}
+.list-menu
+{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.list-menu li
+{
+    display: inline-block;
+   
+}
+.list-menu li a
+{
+    display: block;
+    padding: 15px 10px;
+    color: white;
+    text-decoration:none;
+}
+
+.lista-menu li 
+{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
+
+.text-center
+{
+   padding: 20%;
+    background-color: rgba(37, 106, 114, 0.73)
+   
+}
+.fondoflor
+{
+    background: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    width: 100%;
+    
+}
+
+.letras h1
+{
+    font-size: 50px;
+    
+}
+h1,h3
+{
+    text-align: center;
+    
+    color: darkorange;
+}
+p,h4
+{
+    color: white;
+    text-align: center;
+    
+}
+
+.container
+{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.clearfix
+{
+    display: table;
+    
+}
+.clearfix:after
+{
+    content:" ";
+    clear:both;
+}
+
+
+
+
+
+.izquierda , .derecha 
+{
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.izquierda
+{
+    width: 60%; 
+    background:#256a72; 
+}
+
+.derecha
+{
+    width: 40%;
+}
+.block-form .about
+{
+    margin: 10px;
+    background: #1199cb;
+    padding: 15px;
+    text-align: center;
+}
+
+.block-form .search
+{
+    margin:0 20px 0px 20px;
+    background: #211F33;
+    padding: 5px 10px 5px  10px;
+    text-align: center;
+}
+.block-form input, .block-form button
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.iconos i
+{
+    background: white;
+    padding: 5px;
+    border-radius: 100%;
+    position: relative;
+    right: 100px;
+}
+
+footer
+{
+    color: white;
+    background: #1199cb;
+    padding: 20px;
+    text-align: center    
+}
+
+footer span
+{
+    color:#256a72;
+}
+
+@media (max-width: 900px)
+{
+    .container
+    {
+        width: 700px;
+    }
+}
+
+
+@media (max-width: 600px)
+{
+    .container
+    {
+        width: 80%;
+    } 
+    .letras
+    {
+        width: 50%;
+        position: relative;
+        left: 25%;
+        padding-bottom: 50px;
+        
+        
+    }
+    .fondoflor
+    {
+        width: 100%;    
+    }
+    .izquierda
+    {
+        width: 100%;    
+    }
+    .derecha{
+        visibility: hidden;
+        display: none;
+    }
+    .container i
+    {
+        display: inline-block;
+        float: right;
+        color: white;
+        font-size: 50px;
+        
+    }
+    .container .list-menu
+    {
+        display: none;
+    }
