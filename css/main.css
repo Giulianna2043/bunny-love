@@ -62,13 +62,14 @@ header
  .text-center
 {
    padding: 20%;
-    background-color: rgba(37, 106, 114, 0.73)
+    background-color: rgba(37, 106, 114, 0.73);
+    margin-bottom: 3%;
    
 }
-.container .col-md-3 p,h3
+.container  .color
 {
-    background-color:#1199cb;
-     ;
+    background-color:#256a72;
+     
 }
 
 .letras h1
@@ -89,6 +90,11 @@ p,h4
     font-family:Prompt:100,200,300,400,500,700";
     
 }
+ .todo
+{
+  background: #256a72; 
+    padding-top: 1%;
+}
 
 .container
 {
@@ -106,22 +112,18 @@ p,h4
     content:" ";
     clear:both;
 }
-
-
-
-
-
 .izquierda , .derecha 
 {
     float: left;
     box-sizing: border-box;
     padding: 10px;
+     background:#256a72
 }
 
 .izquierda
 {
     width: 60%; 
-    background:#256a72; 
+    background:rgba(188, 244, 241, 0.94); 
 }
 
 .derecha
@@ -131,7 +133,7 @@ p,h4
 .block-form .about
 {
     margin: 10px;
-    background: #1199cb;
+    background: #bff0f5;
     padding: 15px;
     text-align: center;
 }
@@ -139,7 +141,7 @@ p,h4
 .block-form .search
 {
     margin:0 20px 0px 20px;
-    background: #211F33;
+    background: #256a72;
     padding: 5px 10px 5px  10px;
     text-align: center;
 }
