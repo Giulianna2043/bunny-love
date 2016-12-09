@@ -49,12 +49,7 @@ header
     display: inline;
 }
 
-.text-center
-{
-   padding: 20%;
-    background-color: rgba(37, 106, 114, 0.73)
-   
-}
+
 .fondoflor
 {
     background: url(../img/img-1.jpg);
@@ -63,6 +58,17 @@ header
  
     width: 100%;
     
+}
+ .text-center
+{
+   padding: 20%;
+    background-color: rgba(37, 106, 114, 0.73)
+   
+}
+.container .col-md-3 p,h3
+{
+    background-color:#1199cb;
+     ;
 }
 
 .letras h1
@@ -73,13 +79,14 @@ header
 h1,h3
 {
     text-align: center;
-    
-    color: darkorange;
+    color: #ff8061;
+    font-family:Baloo+Paaji;
 }
 p,h4
 {
     color: white;
     text-align: center;
+    font-family:Prompt:100,200,300,400,500,700";
     
 }
 
