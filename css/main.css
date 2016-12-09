@@ -1,7 +1,3 @@
-*
-{
- outline:1px solid pink;   
-}
 body
 {
     padding: 0;
@@ -15,6 +11,20 @@ header
     padding: 10px 0;
     background:#256a72;  
 }
+.navbar-brand
+{
+    font-family:Baloo+Paaji;
+    font-size: 25px;
+}
+span
+{
+    color:  #ff8061;
+    font-family:Baloo+Paaji;   
+}
+ul li a
+{
+  color: white;  
+}
 .container i{
     display: none;
 }
@@ -26,20 +36,6 @@ header
     padding: 0;
    
 }
-
-.list-menu li
-{
-    display: inline-block;
-   
-}
-.list-menu li a
-{
-    display: block;
-    padding: 15px 10px;
-    color: white;
-    text-decoration:none;
-}
-
 .lista-menu li 
 {
     color: white;
@@ -47,6 +43,7 @@ header
     list-style: none;
     text-align: center;
     display: inline;
+    padding-left: 5%;
 }
 
 
@@ -87,13 +84,20 @@ p,h4
 {
     color: white;
     text-align: center;
-    font-family:Prompt:100,200,300,400,500,700";
+    font-family: 'Prompt', sans-serif;
     
 }
  .todo
 {
-  background: #256a72; 
+    background: #256a72; 
     padding-top: 1%;
+    padding-bottom: 1%;
+}
+.todo p
+{
+    color: black;
+    font-family:100,200,300,400,500,700"
+    
 }
 
 .container
@@ -133,17 +137,18 @@ p,h4
 .block-form .about
 {
     margin: 10px;
-    background: #bff0f5;
+    background: #c5f3f8;
     padding: 15px;
     text-align: center;
 }
 
 .block-form .search
 {
-    margin:0 20px 0px 20px;
-    background: #256a72;
-    padding: 5px 10px 5px  10px;
+    margin:0px 10px 0px 10px;
+    background: #c5f3f8;
+    padding: 10px 10px 10px 10px;
     text-align: center;
+    border-radius:7px;
 }
 .block-form input, .block-form button
 {
@@ -159,7 +164,15 @@ p,h4
     position: relative;
     right: 100px;
 }
-
+.conejos 
+{
+    background-image: url(../img/bunny-head.png);
+    padding: 46px;
+    box-sizing: border-box;
+    background-position: right;
+    background-size: contain;
+    background-repeat: repeat;
+}
 footer
 {
     color: white;
